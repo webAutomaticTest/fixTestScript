@@ -1,0 +1,22 @@
+{
+  "name": "fixscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node playToFix.js",
+    "test": "mocha --reporter spec test"
+  },
+  "author": "wei",
+  "license": "ISC",
+  "dependencies": {
+    "array-shuffle": "^1.0.1",
+    "chai": "^4.1.2",
+    "nightmare": "^3.0.0",
+    "puppeteer": "^1.2.0",
+    "sleep": "^5.1.1",
+    "wat_action_nightmare": "^1.0.14",
+    "wat_scenario": "^1.0.6",
+    "winston": "^2.4.1"
+  }
+}
